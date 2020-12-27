@@ -1,0 +1,406 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.lambiengcode.whoru"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="29" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/media/lambiengcode/src/flutter/project/cloud_classroom/android/app/src/main/AndroidManifest.xml:4:5-67
+14-->/media/lambiengcode/src/flutter/project/cloud_classroom/android/app/src/main/AndroidManifest.xml:4:22-64
+15    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+15-->/media/lambiengcode/src/flutter/project/cloud_classroom/android/app/src/main/AndroidManifest.xml:3:5-75
+15-->/media/lambiengcode/src/flutter/project/cloud_classroom/android/app/src/main/AndroidManifest.xml:3:22-72
+16    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+16-->/media/lambiengcode/src/flutter/project/cloud_classroom/android/app/src/main/AndroidManifest.xml:5:5-71
+16-->/media/lambiengcode/src/flutter/project/cloud_classroom/android/app/src/main/AndroidManifest.xml:5:22-68
+17    <uses-permission android:name="android.permission.CAMERA" />
+17-->/media/lambiengcode/src/flutter/project/cloud_classroom/android/app/src/main/AndroidManifest.xml:6:5-65
+17-->/media/lambiengcode/src/flutter/project/cloud_classroom/android/app/src/main/AndroidManifest.xml:6:22-62
+18    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+18-->/media/lambiengcode/src/flutter/project/cloud_classroom/android/app/src/main/AndroidManifest.xml:7:5-80
+18-->/media/lambiengcode/src/flutter/project/cloud_classroom/android/app/src/main/AndroidManifest.xml:7:22-77
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->/media/lambiengcode/src/flutter/project/cloud_classroom/android/app/src/main/AndroidManifest.xml:8:5-79
+19-->/media/lambiengcode/src/flutter/project/cloud_classroom/android/app/src/main/AndroidManifest.xml:8:22-76
+20    <uses-permission android:name="android.permission.BLUETOOTH" />
+20-->/media/lambiengcode/src/flutter/project/cloud_classroom/android/app/src/main/AndroidManifest.xml:9:5-68
+20-->/media/lambiengcode/src/flutter/project/cloud_classroom/android/app/src/main/AndroidManifest.xml:9:22-65
+21    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+21-->/media/lambiengcode/src/flutter/project/cloud_classroom/android/app/src/main/AndroidManifest.xml:10:5-76
+21-->/media/lambiengcode/src/flutter/project/cloud_classroom/android/app/src/main/AndroidManifest.xml:10:22-73
+22    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+22-->/media/lambiengcode/src/flutter/project/cloud_classroom/android/app/src/main/AndroidManifest.xml:12:5-80
+22-->/media/lambiengcode/src/flutter/project/cloud_classroom/android/app/src/main/AndroidManifest.xml:12:22-77
+23    <uses-permission android:name="android.permission.WAKE_LOCK" />
+23-->/media/lambiengcode/src/flutter/project/cloud_classroom/android/app/src/main/AndroidManifest.xml:13:5-68
+23-->/media/lambiengcode/src/flutter/project/cloud_classroom/android/app/src/main/AndroidManifest.xml:13:22-65
+24    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+24-->/media/lambiengcode/src/flutter/project/cloud_classroom/android/app/src/main/AndroidManifest.xml:14:5-76
+24-->/media/lambiengcode/src/flutter/project/cloud_classroom/android/app/src/main/AndroidManifest.xml:14:22-74
+25    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+25-->[:image_picker] /media/lambiengcode/src/flutter/project/cloud_classroom/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-81
+25-->[:image_picker] /media/lambiengcode/src/flutter/project/cloud_classroom/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-78
+26    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+26-->[com.google.firebase:firebase-iid:20.3.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/7defe44994fff40cd95f4f8064091e41/firebase-iid-20.3.0/AndroidManifest.xml:26:5-82
+26-->[com.google.firebase:firebase-iid:20.3.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/7defe44994fff40cd95f4f8064091e41/firebase-iid-20.3.0/AndroidManifest.xml:26:22-79
+27    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+27-->[com.google.android.gms:play-services-measurement:17.6.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/45895751fd72f67328de2f37169c4425/play-services-measurement-17.6.0/AndroidManifest.xml:26:5-110
+27-->[com.google.android.gms:play-services-measurement:17.6.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/45895751fd72f67328de2f37169c4425/play-services-measurement-17.6.0/AndroidManifest.xml:26:22-107
+28
+29    <application
+29-->/media/lambiengcode/src/flutter/project/cloud_classroom/android/app/src/main/AndroidManifest.xml:15:4-56:19
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.1.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/daac9151c0fa8393fc663a2e7f86013e/core-1.1.0/AndroidManifest.xml:24:18-86
+31        android:debuggable="true"
+32        android:icon="@mipmap/ic_launcher"
+32-->/media/lambiengcode/src/flutter/project/cloud_classroom/android/app/src/main/AndroidManifest.xml:17:9-43
+33        android:label="Cloud School" >
+33-->/media/lambiengcode/src/flutter/project/cloud_classroom/android/app/src/main/AndroidManifest.xml:16:9-37
+34        <activity
+34-->/media/lambiengcode/src/flutter/project/cloud_classroom/android/app/src/main/AndroidManifest.xml:18:9-50:20
+35            android:name="com.lambiengcode.whoru.MainActivity"
+35-->/media/lambiengcode/src/flutter/project/cloud_classroom/android/app/src/main/AndroidManifest.xml:19:13-41
+36            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+36-->/media/lambiengcode/src/flutter/project/cloud_classroom/android/app/src/main/AndroidManifest.xml:22:13-163
+37            android:hardwareAccelerated="true"
+37-->/media/lambiengcode/src/flutter/project/cloud_classroom/android/app/src/main/AndroidManifest.xml:23:13-47
+38            android:launchMode="singleTop"
+38-->/media/lambiengcode/src/flutter/project/cloud_classroom/android/app/src/main/AndroidManifest.xml:20:13-43
+39            android:theme="@style/LaunchTheme"
+39-->/media/lambiengcode/src/flutter/project/cloud_classroom/android/app/src/main/AndroidManifest.xml:21:13-47
+40            android:windowSoftInputMode="adjustResize" >
+40-->/media/lambiengcode/src/flutter/project/cloud_classroom/android/app/src/main/AndroidManifest.xml:24:13-55
+41
+42            <!--
+43                 Specifies an Android theme to apply to this Activity as soon as
+44                 the Android process has started. This theme is visible to the user
+45                 while the Flutter UI initializes. After that, this theme continues
+46                 to determine the Window background behind the Flutter UI.
+47            -->
+48            <meta-data
+48-->/media/lambiengcode/src/flutter/project/cloud_classroom/android/app/src/main/AndroidManifest.xml:29:13-32:17
+49                android:name="io.flutter.embedding.android.NormalTheme"
+49-->/media/lambiengcode/src/flutter/project/cloud_classroom/android/app/src/main/AndroidManifest.xml:30:15-70
+50                android:resource="@style/NormalTheme" />
+50-->/media/lambiengcode/src/flutter/project/cloud_classroom/android/app/src/main/AndroidManifest.xml:31:15-52
+51            <!--
+52                 Displays an Android View that continues showing the launch screen
+53                 Drawable until Flutter paints its first frame, then this splash
+54                 screen fades out. A splash screen is useful to avoid any visual
+55                 gap between the end of Android's launch screen and the painting of
+56                 Flutter's first frame.
+57            -->
+58            <meta-data
+58-->/media/lambiengcode/src/flutter/project/cloud_classroom/android/app/src/main/AndroidManifest.xml:38:13-41:17
+59                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+59-->/media/lambiengcode/src/flutter/project/cloud_classroom/android/app/src/main/AndroidManifest.xml:39:15-79
+60                android:resource="@drawable/launch_background" />
+60-->/media/lambiengcode/src/flutter/project/cloud_classroom/android/app/src/main/AndroidManifest.xml:40:15-61
+61
+62            <intent-filter>
+62-->/media/lambiengcode/src/flutter/project/cloud_classroom/android/app/src/main/AndroidManifest.xml:42:13-45:29
+63                <action android:name="android.intent.action.MAIN" />
+63-->/media/lambiengcode/src/flutter/project/cloud_classroom/android/app/src/main/AndroidManifest.xml:43:17-68
+63-->/media/lambiengcode/src/flutter/project/cloud_classroom/android/app/src/main/AndroidManifest.xml:43:25-66
+64
+65                <category android:name="android.intent.category.LAUNCHER" />
+65-->/media/lambiengcode/src/flutter/project/cloud_classroom/android/app/src/main/AndroidManifest.xml:44:17-76
+65-->/media/lambiengcode/src/flutter/project/cloud_classroom/android/app/src/main/AndroidManifest.xml:44:27-74
+66            </intent-filter>
+67            <intent-filter>
+67-->/media/lambiengcode/src/flutter/project/cloud_classroom/android/app/src/main/AndroidManifest.xml:46:13-49:29
+68                <action android:name="FLUTTER_NOTIFICATION_CLICK" />
+68-->/media/lambiengcode/src/flutter/project/cloud_classroom/android/app/src/main/AndroidManifest.xml:47:17-69
+68-->/media/lambiengcode/src/flutter/project/cloud_classroom/android/app/src/main/AndroidManifest.xml:47:25-66
+69
+70                <category android:name="android.intent.category.DEFAULT" />
+70-->/media/lambiengcode/src/flutter/project/cloud_classroom/android/app/src/main/AndroidManifest.xml:48:17-76
+70-->/media/lambiengcode/src/flutter/project/cloud_classroom/android/app/src/main/AndroidManifest.xml:48:27-73
+71            </intent-filter>
+72        </activity>
+73        <!--
+74             Don't delete the meta-data below.
+75             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+76        -->
+77        <meta-data
+77-->/media/lambiengcode/src/flutter/project/cloud_classroom/android/app/src/main/AndroidManifest.xml:53:9-55:33
+78            android:name="flutterEmbedding"
+78-->/media/lambiengcode/src/flutter/project/cloud_classroom/android/app/src/main/AndroidManifest.xml:54:13-44
+79            android:value="2" />
+79-->/media/lambiengcode/src/flutter/project/cloud_classroom/android/app/src/main/AndroidManifest.xml:55:13-30
+80
+81        <service
+81-->[:cloud_firestore] /media/lambiengcode/src/flutter/project/cloud_classroom/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+82            android:name="com.google.firebase.components.ComponentDiscoveryService"
+82-->[:cloud_firestore] /media/lambiengcode/src/flutter/project/cloud_classroom/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
+83            android:directBootAware="true"
+83-->[com.google.firebase:firebase-common:19.3.1] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/18a69b0dabe29ce8a00d1c4d775b5cee/jetified-firebase-common-19.3.1/AndroidManifest.xml:35:13-43
+84            android:exported="false" >
+84-->[com.google.firebase:firebase-messaging:20.3.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/83fb3f88e7c3ab4d7b80b5fd1d036d34/jetified-firebase-messaging-20.3.0/AndroidManifest.xml:38:13-37
+85            <meta-data
+85-->[:cloud_firestore] /media/lambiengcode/src/flutter/project/cloud_classroom/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+86                android:name="com.google.firebase.components:io.flutter.plugins.firebase.cloudfirestore.FlutterFirebaseAppRegistrar"
+86-->[:cloud_firestore] /media/lambiengcode/src/flutter/project/cloud_classroom/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-133
+87                android:value="com.google.firebase.components.ComponentRegistrar" />
+87-->[:cloud_firestore] /media/lambiengcode/src/flutter/project/cloud_classroom/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+88            <meta-data
+88-->[:cloud_functions] /media/lambiengcode/src/flutter/project/cloud_classroom/build/cloud_functions/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+89                android:name="com.google.firebase.components:io.flutter.plugins.firebase.cloudfunctions.FlutterFirebaseAppRegistrar"
+89-->[:cloud_functions] /media/lambiengcode/src/flutter/project/cloud_classroom/build/cloud_functions/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-133
+90                android:value="com.google.firebase.components.ComponentRegistrar" />
+90-->[:cloud_functions] /media/lambiengcode/src/flutter/project/cloud_classroom/build/cloud_functions/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+91            <meta-data
+91-->[:firebase_auth] /media/lambiengcode/src/flutter/project/cloud_classroom/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+92                android:name="com.google.firebase.components:io.flutter.plugins.firebaseauth.FlutterFirebaseAppRegistrar"
+92-->[:firebase_auth] /media/lambiengcode/src/flutter/project/cloud_classroom/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-122
+93                android:value="com.google.firebase.components.ComponentRegistrar" />
+93-->[:firebase_auth] /media/lambiengcode/src/flutter/project/cloud_classroom/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+94            <meta-data
+94-->[:firebase_storage] /media/lambiengcode/src/flutter/project/cloud_classroom/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+95                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+95-->[:firebase_storage] /media/lambiengcode/src/flutter/project/cloud_classroom/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-126
+96                android:value="com.google.firebase.components.ComponentRegistrar" />
+96-->[:firebase_storage] /media/lambiengcode/src/flutter/project/cloud_classroom/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+97            <meta-data
+97-->[:firebase_core] /media/lambiengcode/src/flutter/project/cloud_classroom/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+98                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseAppRegistrar"
+98-->[:firebase_core] /media/lambiengcode/src/flutter/project/cloud_classroom/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-123
+99                android:value="com.google.firebase.components.ComponentRegistrar" />
+99-->[:firebase_core] /media/lambiengcode/src/flutter/project/cloud_classroom/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+100            <meta-data
+100-->[:firebase_messaging] /media/lambiengcode/src/flutter/project/cloud_classroom/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-16:85
+101                android:name="com.google.firebase.components:io.flutter.plugins.firebasemessaging.FlutterFirebaseAppRegistrar"
+101-->[:firebase_messaging] /media/lambiengcode/src/flutter/project/cloud_classroom/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-127
+102                android:value="com.google.firebase.components.ComponentRegistrar" />
+102-->[:firebase_messaging] /media/lambiengcode/src/flutter/project/cloud_classroom/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:16:17-82
+103            <meta-data
+103-->[com.google.firebase:firebase-messaging:20.3.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/83fb3f88e7c3ab4d7b80b5fd1d036d34/jetified-firebase-messaging-20.3.0/AndroidManifest.xml:39:13-41:85
+104                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+104-->[com.google.firebase:firebase-messaging:20.3.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/83fb3f88e7c3ab4d7b80b5fd1d036d34/jetified-firebase-messaging-20.3.0/AndroidManifest.xml:40:17-119
+105                android:value="com.google.firebase.components.ComponentRegistrar" />
+105-->[com.google.firebase:firebase-messaging:20.3.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/83fb3f88e7c3ab4d7b80b5fd1d036d34/jetified-firebase-messaging-20.3.0/AndroidManifest.xml:41:17-82
+106            <meta-data
+106-->[com.google.firebase:firebase-functions:19.1.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/92a13176536a62851113963a415a03d4/jetified-firebase-functions-19.1.0/AndroidManifest.xml:18:13-20:85
+107                android:name="com.google.firebase.components:com.google.firebase.functions.FunctionsRegistrar"
+107-->[com.google.firebase:firebase-functions:19.1.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/92a13176536a62851113963a415a03d4/jetified-firebase-functions-19.1.0/AndroidManifest.xml:19:17-111
+108                android:value="com.google.firebase.components.ComponentRegistrar" />
+108-->[com.google.firebase:firebase-functions:19.1.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/92a13176536a62851113963a415a03d4/jetified-firebase-functions-19.1.0/AndroidManifest.xml:20:17-82
+109            <meta-data
+109-->[com.google.firebase:firebase-auth:19.4.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/78cc6d451136b6ad119811123e9104ea/firebase-auth-19.4.0/AndroidManifest.xml:36:13-38:85
+110                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+110-->[com.google.firebase:firebase-auth:19.4.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/78cc6d451136b6ad119811123e9104ea/firebase-auth-19.4.0/AndroidManifest.xml:37:17-109
+111                android:value="com.google.firebase.components.ComponentRegistrar" />
+111-->[com.google.firebase:firebase-auth:19.4.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/78cc6d451136b6ad119811123e9104ea/firebase-auth-19.4.0/AndroidManifest.xml:38:17-82
+112            <meta-data
+112-->[com.google.firebase:firebase-storage:19.2.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/414bb34186eee52f5117b98a33e074c0/firebase-storage-19.2.0/AndroidManifest.xml:33:13-35:85
+113                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+113-->[com.google.firebase:firebase-storage:19.2.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/414bb34186eee52f5117b98a33e074c0/firebase-storage-19.2.0/AndroidManifest.xml:34:17-107
+114                android:value="com.google.firebase.components.ComponentRegistrar" />
+114-->[com.google.firebase:firebase-storage:19.2.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/414bb34186eee52f5117b98a33e074c0/firebase-storage-19.2.0/AndroidManifest.xml:35:17-82
+115            <meta-data
+115-->[com.google.firebase:firebase-firestore:21.7.1] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/ead20b9a8d09d070fea8e59e516690cc/jetified-firebase-firestore-21.7.1/AndroidManifest.xml:20:13-22:85
+116                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+116-->[com.google.firebase:firebase-firestore:21.7.1] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/ead20b9a8d09d070fea8e59e516690cc/jetified-firebase-firestore-21.7.1/AndroidManifest.xml:21:17-111
+117                android:value="com.google.firebase.components.ComponentRegistrar" />
+117-->[com.google.firebase:firebase-firestore:21.7.1] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/ead20b9a8d09d070fea8e59e516690cc/jetified-firebase-firestore-21.7.1/AndroidManifest.xml:22:17-82
+118            <meta-data
+118-->[com.google.firebase:firebase-iid:20.3.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/7defe44994fff40cd95f4f8064091e41/firebase-iid-20.3.0/AndroidManifest.xml:32:13-34:85
+119                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+119-->[com.google.firebase:firebase-iid:20.3.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/7defe44994fff40cd95f4f8064091e41/firebase-iid-20.3.0/AndroidManifest.xml:33:17-96
+120                android:value="com.google.firebase.components.ComponentRegistrar" />
+120-->[com.google.firebase:firebase-iid:20.3.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/7defe44994fff40cd95f4f8064091e41/firebase-iid-20.3.0/AndroidManifest.xml:34:17-82
+121            <meta-data
+121-->[com.google.android.gms:play-services-measurement-api:17.6.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/c11a576cac616b298a0897b90197804b/play-services-measurement-api-17.6.0/AndroidManifest.xml:30:13-32:85
+122                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+122-->[com.google.android.gms:play-services-measurement-api:17.6.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/c11a576cac616b298a0897b90197804b/play-services-measurement-api-17.6.0/AndroidManifest.xml:31:17-139
+123                android:value="com.google.firebase.components.ComponentRegistrar" />
+123-->[com.google.android.gms:play-services-measurement-api:17.6.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/c11a576cac616b298a0897b90197804b/play-services-measurement-api-17.6.0/AndroidManifest.xml:32:17-82
+124            <meta-data
+124-->[com.google.firebase:firebase-installations:16.3.3] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/78ced66ddf9357bdda3ddc1eeb3f837b/firebase-installations-16.3.3/AndroidManifest.xml:17:13-19:85
+125                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+125-->[com.google.firebase:firebase-installations:16.3.3] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/78ced66ddf9357bdda3ddc1eeb3f837b/firebase-installations-16.3.3/AndroidManifest.xml:18:17-127
+126                android:value="com.google.firebase.components.ComponentRegistrar" />
+126-->[com.google.firebase:firebase-installations:16.3.3] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/78ced66ddf9357bdda3ddc1eeb3f837b/firebase-installations-16.3.3/AndroidManifest.xml:19:17-82
+127            <meta-data
+127-->[com.google.firebase:firebase-datatransport:17.0.3] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/c5655413cc8fb5bc1a1c6109484f1e55/firebase-datatransport-17.0.3/AndroidManifest.xml:28:13-30:85
+128                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+128-->[com.google.firebase:firebase-datatransport:17.0.3] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/c5655413cc8fb5bc1a1c6109484f1e55/firebase-datatransport-17.0.3/AndroidManifest.xml:29:17-115
+129                android:value="com.google.firebase.components.ComponentRegistrar" />
+129-->[com.google.firebase:firebase-datatransport:17.0.3] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/c5655413cc8fb5bc1a1c6109484f1e55/firebase-datatransport-17.0.3/AndroidManifest.xml:30:17-82
+130        </service>
+131
+132        <provider
+132-->[:image_picker] /media/lambiengcode/src/flutter/project/cloud_classroom/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:9-19:20
+133            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+133-->[:image_picker] /media/lambiengcode/src/flutter/project/cloud_classroom/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-82
+134            android:authorities="com.lambiengcode.whoru.flutter.image_provider"
+134-->[:image_picker] /media/lambiengcode/src/flutter/project/cloud_classroom/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-74
+135            android:exported="false"
+135-->[:image_picker] /media/lambiengcode/src/flutter/project/cloud_classroom/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-37
+136            android:grantUriPermissions="true" >
+136-->[:image_picker] /media/lambiengcode/src/flutter/project/cloud_classroom/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-47
+137            <meta-data
+137-->[:image_picker] /media/lambiengcode/src/flutter/project/cloud_classroom/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-18:75
+138                android:name="android.support.FILE_PROVIDER_PATHS"
+138-->[:image_picker] /media/lambiengcode/src/flutter/project/cloud_classroom/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-67
+139                android:resource="@xml/flutter_image_picker_file_paths" />
+139-->[:image_picker] /media/lambiengcode/src/flutter/project/cloud_classroom/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-72
+140        </provider>
+141
+142        <service android:name="io.flutter.plugins.firebasemessaging.FlutterFirebaseMessagingService" >
+142-->[:firebase_messaging] /media/lambiengcode/src/flutter/project/cloud_classroom/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+142-->[:firebase_messaging] /media/lambiengcode/src/flutter/project/cloud_classroom/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-101
+143            <intent-filter>
+143-->[:firebase_messaging] /media/lambiengcode/src/flutter/project/cloud_classroom/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:29
+144                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+144-->[:firebase_messaging] /media/lambiengcode/src/flutter/project/cloud_classroom/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-78
+144-->[:firebase_messaging] /media/lambiengcode/src/flutter/project/cloud_classroom/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:10:25-75
+145            </intent-filter>
+146        </service>
+147        <!--
+148             FirebaseMessagingService performs security checks at runtime,
+149             but set to not exported to explicitly avoid allowing another app to call it.
+150        -->
+151        <service
+151-->[com.google.firebase:firebase-messaging:20.3.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/83fb3f88e7c3ab4d7b80b5fd1d036d34/jetified-firebase-messaging-20.3.0/AndroidManifest.xml:28:9-35:19
+152            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+152-->[com.google.firebase:firebase-messaging:20.3.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/83fb3f88e7c3ab4d7b80b5fd1d036d34/jetified-firebase-messaging-20.3.0/AndroidManifest.xml:29:13-82
+153            android:directBootAware="true"
+153-->[com.google.firebase:firebase-messaging:20.3.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/83fb3f88e7c3ab4d7b80b5fd1d036d34/jetified-firebase-messaging-20.3.0/AndroidManifest.xml:30:13-43
+154            android:exported="false" >
+154-->[com.google.firebase:firebase-messaging:20.3.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/83fb3f88e7c3ab4d7b80b5fd1d036d34/jetified-firebase-messaging-20.3.0/AndroidManifest.xml:31:13-37
+155            <intent-filter android:priority="-500" >
+155-->[:firebase_messaging] /media/lambiengcode/src/flutter/project/cloud_classroom/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:29
+156                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+156-->[:firebase_messaging] /media/lambiengcode/src/flutter/project/cloud_classroom/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-78
+156-->[:firebase_messaging] /media/lambiengcode/src/flutter/project/cloud_classroom/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:10:25-75
+157            </intent-filter>
+158        </service>
+159
+160        <activity
+160-->[com.google.firebase:firebase-auth:19.4.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/78cc6d451136b6ad119811123e9104ea/firebase-auth-19.4.0/AndroidManifest.xml:24:9-31:50
+161            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+161-->[com.google.firebase:firebase-auth:19.4.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/78cc6d451136b6ad119811123e9104ea/firebase-auth-19.4.0/AndroidManifest.xml:25:13-85
+162            android:excludeFromRecents="true"
+162-->[com.google.firebase:firebase-auth:19.4.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/78cc6d451136b6ad119811123e9104ea/firebase-auth-19.4.0/AndroidManifest.xml:26:13-46
+163            android:exported="true"
+163-->[com.google.firebase:firebase-auth:19.4.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/78cc6d451136b6ad119811123e9104ea/firebase-auth-19.4.0/AndroidManifest.xml:27:13-36
+164            android:launchMode="singleTask"
+164-->[com.google.firebase:firebase-auth:19.4.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/78cc6d451136b6ad119811123e9104ea/firebase-auth-19.4.0/AndroidManifest.xml:28:13-44
+165            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+165-->[com.google.firebase:firebase-auth:19.4.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/78cc6d451136b6ad119811123e9104ea/firebase-auth-19.4.0/AndroidManifest.xml:29:13-102
+166            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+166-->[com.google.firebase:firebase-auth:19.4.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/78cc6d451136b6ad119811123e9104ea/firebase-auth-19.4.0/AndroidManifest.xml:30:13-72
+167
+168        <receiver
+168-->[com.google.firebase:firebase-iid:20.3.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/7defe44994fff40cd95f4f8064091e41/firebase-iid-20.3.0/AndroidManifest.xml:37:9-44:20
+169            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+169-->[com.google.firebase:firebase-iid:20.3.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/7defe44994fff40cd95f4f8064091e41/firebase-iid-20.3.0/AndroidManifest.xml:38:13-78
+170            android:exported="true"
+170-->[com.google.firebase:firebase-iid:20.3.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/7defe44994fff40cd95f4f8064091e41/firebase-iid-20.3.0/AndroidManifest.xml:39:13-36
+171            android:permission="com.google.android.c2dm.permission.SEND" >
+171-->[com.google.firebase:firebase-iid:20.3.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/7defe44994fff40cd95f4f8064091e41/firebase-iid-20.3.0/AndroidManifest.xml:40:13-73
+172            <intent-filter>
+172-->[com.google.firebase:firebase-iid:20.3.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/7defe44994fff40cd95f4f8064091e41/firebase-iid-20.3.0/AndroidManifest.xml:41:13-43:29
+173                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+173-->[com.google.firebase:firebase-iid:20.3.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/7defe44994fff40cd95f4f8064091e41/firebase-iid-20.3.0/AndroidManifest.xml:42:17-81
+173-->[com.google.firebase:firebase-iid:20.3.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/7defe44994fff40cd95f4f8064091e41/firebase-iid-20.3.0/AndroidManifest.xml:42:25-78
+174            </intent-filter>
+175        </receiver>
+176        <receiver
+176-->[com.google.android.gms:play-services-measurement:17.6.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/45895751fd72f67328de2f37169c4425/play-services-measurement-17.6.0/AndroidManifest.xml:29:9-33:20
+177            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+177-->[com.google.android.gms:play-services-measurement:17.6.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/45895751fd72f67328de2f37169c4425/play-services-measurement-17.6.0/AndroidManifest.xml:30:13-85
+178            android:enabled="true"
+178-->[com.google.android.gms:play-services-measurement:17.6.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/45895751fd72f67328de2f37169c4425/play-services-measurement-17.6.0/AndroidManifest.xml:31:13-35
+179            android:exported="false" >
+179-->[com.google.android.gms:play-services-measurement:17.6.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/45895751fd72f67328de2f37169c4425/play-services-measurement-17.6.0/AndroidManifest.xml:32:13-37
+180        </receiver>
+181
+182        <service
+182-->[com.google.android.gms:play-services-measurement:17.6.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/45895751fd72f67328de2f37169c4425/play-services-measurement-17.6.0/AndroidManifest.xml:35:9-38:40
+183            android:name="com.google.android.gms.measurement.AppMeasurementService"
+183-->[com.google.android.gms:play-services-measurement:17.6.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/45895751fd72f67328de2f37169c4425/play-services-measurement-17.6.0/AndroidManifest.xml:36:13-84
+184            android:enabled="true"
+184-->[com.google.android.gms:play-services-measurement:17.6.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/45895751fd72f67328de2f37169c4425/play-services-measurement-17.6.0/AndroidManifest.xml:37:13-35
+185            android:exported="false" />
+185-->[com.google.android.gms:play-services-measurement:17.6.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/45895751fd72f67328de2f37169c4425/play-services-measurement-17.6.0/AndroidManifest.xml:38:13-37
+186        <service
+186-->[com.google.android.gms:play-services-measurement:17.6.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/45895751fd72f67328de2f37169c4425/play-services-measurement-17.6.0/AndroidManifest.xml:39:9-43:72
+187            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+187-->[com.google.android.gms:play-services-measurement:17.6.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/45895751fd72f67328de2f37169c4425/play-services-measurement-17.6.0/AndroidManifest.xml:40:13-87
+188            android:enabled="true"
+188-->[com.google.android.gms:play-services-measurement:17.6.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/45895751fd72f67328de2f37169c4425/play-services-measurement-17.6.0/AndroidManifest.xml:41:13-35
+189            android:exported="false"
+189-->[com.google.android.gms:play-services-measurement:17.6.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/45895751fd72f67328de2f37169c4425/play-services-measurement-17.6.0/AndroidManifest.xml:42:13-37
+190            android:permission="android.permission.BIND_JOB_SERVICE" />
+190-->[com.google.android.gms:play-services-measurement:17.6.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/45895751fd72f67328de2f37169c4425/play-services-measurement-17.6.0/AndroidManifest.xml:43:13-69
+191
+192        <provider
+192-->[com.google.firebase:firebase-common:19.3.1] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/18a69b0dabe29ce8a00d1c4d775b5cee/jetified-firebase-common-19.3.1/AndroidManifest.xml:26:9-31:39
+193            android:name="com.google.firebase.provider.FirebaseInitProvider"
+193-->[com.google.firebase:firebase-common:19.3.1] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/18a69b0dabe29ce8a00d1c4d775b5cee/jetified-firebase-common-19.3.1/AndroidManifest.xml:27:13-77
+194            android:authorities="com.lambiengcode.whoru.firebaseinitprovider"
+194-->[com.google.firebase:firebase-common:19.3.1] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/18a69b0dabe29ce8a00d1c4d775b5cee/jetified-firebase-common-19.3.1/AndroidManifest.xml:28:13-72
+195            android:directBootAware="true"
+195-->[com.google.firebase:firebase-common:19.3.1] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/18a69b0dabe29ce8a00d1c4d775b5cee/jetified-firebase-common-19.3.1/AndroidManifest.xml:29:13-43
+196            android:exported="false"
+196-->[com.google.firebase:firebase-common:19.3.1] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/18a69b0dabe29ce8a00d1c4d775b5cee/jetified-firebase-common-19.3.1/AndroidManifest.xml:30:13-37
+197            android:initOrder="100" />
+197-->[com.google.firebase:firebase-common:19.3.1] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/18a69b0dabe29ce8a00d1c4d775b5cee/jetified-firebase-common-19.3.1/AndroidManifest.xml:31:13-36
+198
+199        <activity
+199-->[com.google.android.gms:play-services-base:17.1.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/4173767900b376e9bc3745a8f4f740cd/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+200            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+200-->[com.google.android.gms:play-services-base:17.1.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/4173767900b376e9bc3745a8f4f740cd/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+201            android:exported="false"
+201-->[com.google.android.gms:play-services-base:17.1.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/4173767900b376e9bc3745a8f4f740cd/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+202            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+202-->[com.google.android.gms:play-services-base:17.1.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/4173767900b376e9bc3745a8f4f740cd/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+203
+204        <meta-data
+204-->[com.google.android.gms:play-services-basement:17.0.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/e2d9a29dfdc2b127a3f214b0bb25a11c/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+205            android:name="com.google.android.gms.version"
+205-->[com.google.android.gms:play-services-basement:17.0.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/e2d9a29dfdc2b127a3f214b0bb25a11c/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+206            android:value="@integer/google_play_services_version" />
+206-->[com.google.android.gms:play-services-basement:17.0.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/e2d9a29dfdc2b127a3f214b0bb25a11c/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+207
+208        <service
+208-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/52a146401bac74de5955f22ddacca4e6/transport-backend-cct-2.2.0/AndroidManifest.xml:29:9-35:19
+209            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+209-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/52a146401bac74de5955f22ddacca4e6/transport-backend-cct-2.2.0/AndroidManifest.xml:30:13-103
+210            android:exported="false" >
+210-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/52a146401bac74de5955f22ddacca4e6/transport-backend-cct-2.2.0/AndroidManifest.xml:31:13-37
+211            <meta-data
+211-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/52a146401bac74de5955f22ddacca4e6/transport-backend-cct-2.2.0/AndroidManifest.xml:32:13-34:39
+212                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+212-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/52a146401bac74de5955f22ddacca4e6/transport-backend-cct-2.2.0/AndroidManifest.xml:33:17-94
+213                android:value="cct" />
+213-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/52a146401bac74de5955f22ddacca4e6/transport-backend-cct-2.2.0/AndroidManifest.xml:34:17-36
+214        </service>
+215        <service
+215-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/5d1cc7076ef0543bae31d67d4564b1cd/transport-runtime-2.2.0/AndroidManifest.xml:26:9-30:19
+216            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+216-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/5d1cc7076ef0543bae31d67d4564b1cd/transport-runtime-2.2.0/AndroidManifest.xml:27:13-117
+217            android:exported="false"
+217-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/5d1cc7076ef0543bae31d67d4564b1cd/transport-runtime-2.2.0/AndroidManifest.xml:28:13-37
+218            android:permission="android.permission.BIND_JOB_SERVICE" >
+218-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/5d1cc7076ef0543bae31d67d4564b1cd/transport-runtime-2.2.0/AndroidManifest.xml:29:13-69
+219        </service>
+220
+221        <receiver
+221-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/5d1cc7076ef0543bae31d67d4564b1cd/transport-runtime-2.2.0/AndroidManifest.xml:32:9-34:40
+222            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+222-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/5d1cc7076ef0543bae31d67d4564b1cd/transport-runtime-2.2.0/AndroidManifest.xml:33:13-132
+223            android:exported="false" />
+223-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/lambiengcode/.gradle/caches/transforms-2/files-2.1/5d1cc7076ef0543bae31d67d4564b1cd/transport-runtime-2.2.0/AndroidManifest.xml:34:13-37
+224    </application>
+225
+226</manifest>

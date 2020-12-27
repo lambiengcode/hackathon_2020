@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/media/lambiengcode/src/flutter/project/cloud_classroom/build/cloud_firestore/intermediates/res/merged/release/layout/notification_action_tombstone.xml",
+        "source": "/home/lambiengcode/.gradle/caches/transforms-2/files-2.1/a4999ae474860d57429c3bc9c4a045ec/core-1.0.0/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/media/lambiengcode/src/flutter/project/cloud_classroom/build/cloud_firestore/intermediates/res/merged/release/layout/notification_template_part_chronometer.xml",
+        "source": "/home/lambiengcode/.gradle/caches/transforms-2/files-2.1/a4999ae474860d57429c3bc9c4a045ec/core-1.0.0/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/media/lambiengcode/src/flutter/project/cloud_classroom/build/cloud_firestore/intermediates/res/merged/release/layout/notification_template_icon_group.xml",
+        "source": "/home/lambiengcode/.gradle/caches/transforms-2/files-2.1/a4999ae474860d57429c3bc9c4a045ec/core-1.0.0/res/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/media/lambiengcode/src/flutter/project/cloud_classroom/build/cloud_firestore/intermediates/res/merged/release/layout/notification_template_part_time.xml",
+        "source": "/home/lambiengcode/.gradle/caches/transforms-2/files-2.1/a4999ae474860d57429c3bc9c4a045ec/core-1.0.0/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/media/lambiengcode/src/flutter/project/cloud_classroom/build/cloud_firestore/intermediates/res/merged/release/layout/notification_action.xml",
+        "source": "/home/lambiengcode/.gradle/caches/transforms-2/files-2.1/a4999ae474860d57429c3bc9c4a045ec/core-1.0.0/res/layout/notification_action.xml"
+    }
+]

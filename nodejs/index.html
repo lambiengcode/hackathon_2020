@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Demo</title>
+    <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-firestore.js"></script>
+  </head>
+
+  <body>
+    <script>
+      var config = {
+        apiKey: "AIzaSyDtDadwEGDsAe9DfIBvqw-IKOrS2KsGquc",
+        authDomain: "whoru-9b069.firebaseapp.com",
+        projectId: "whoru-9b069",
+        storageBucket: "whoru-9b069.appspot.com",
+        messagingSenderId: "397229418203",
+        appId: "1:397229418203:web:f3d9c9116587991ed58efe",
+        measurementId: "G-2YXEYHTC9B",
+      };
+
+      firebase.initializeApp(config);
+      const db = firebase.firestore();
+      var uid = "1";
+
+      const getCourses = db
+        .collection("courses")
+        .where("own", "==", uid)
+        .onSnapshot((querySnapshot) => {
+          querySnapshot.docs.forEach((snapshot) => {
+            const getDeadlines = db
+              .collection("deadlines")
+              .where("course", "==", snapshot.data().id)
+              .onSnapshot((querySnaps) => {
+                querySnaps.docs.forEach((snaps) => {
+                  const getFile = db
+                    .collection("submits")
+                    .where("deadlines", "==", snaps.data().id)
+                    .where("receive", "==", false)
+                    .onSnapshot((docSnaps) => {
+                      docSnaps.docs.forEach(async (doc) => {
+                        console.log(doc.data().filePath);
+
+                        //saveImageToDisk(doc.data().filePath);
+
+                        //Step 2: read txt
+                        var model = "";
+                        var path = "";
+                        var ext = "";
+                        var idStudent = "";
+                        var username = "";
+                        var filename = "./File/Response.txt";
+                        await fs.readFile(
+                          filename,
+                          "utf8",
+                          function (err, data) {
+                            if (err) throw err;
+                            var lines = data.split("\n");
+                            for (var line = 0; line < lines.length; line++) {
+                              switch (line) {
+                                case 0:
+                                  ext = lines[line];
+                                  break;
+                                case 1:
+                                  model = lines[line];
+                                  break;
+                                case 2:
+                                  path = lines[line];
+                                  break;
+                                default:
+                                  break;
+                              }
+                            }
+                          }
+                        );
+
+                        const getInfoUser = db
+                          .collection("users")
+                          .where("id", "==", doc.data().id)
+                          .onSnapshot((snapUser) => {
+                            snapUser.docs.forEach((user) => {
+                              idStudent = user.data().idStudent;
+                              username = user.data().username;
+                              model = model.replace("MSSV", idStudent);
+                              model = model.replace("Username", username);
+                              saveImageToDisk(
+                                doc.data().filePath,
+                                path,
+                                model,
+                                ext
+                              );
+                              doc.ref.update({
+                                receive: true,
+                              });
+                            });
+                          });
+
+                        //Step 3: delete txt
+                        //deleteTxt();
+                        //Step 4:
+                        // snapshot.doc.ref.update({
+                        //   receive: true,
+                        // });
+                      });
+                    });
+                });
+              });
+          });
+        });
+
+      var fs = require("fs");
+      var https = require("https");
+      //Function to save image from External URL.
+      function saveImageToDisk(url, path, model, ext) {
+        const urlFile = url;
+        const fileName = path + model + `.${ext}`;
+        var file = fs.createWriteStream(fileName);
+        var request = https.get(urlFile, function (response) {
+          response.pipe(file);
+        });
+      }
+
+      async function readTxt() {
+        var content = "";
+        var filename = "./File/BTTuan8/Response.txt";
+        await fs.readFile(filename, "utf8", function (err, data) {
+          if (err) throw err;
+          var lines = data.split("\n");
+          for (var line = 0; line < lines.length; line++) {
+            console.log(lines[line]);
+          }
+        });
+
+        return content;
+      }
+
+      function deleteTxt() {
+        // delete a file
+        fs.unlink("./Temp/Response.txt", (err) => {
+          if (err) {
+            throw err;
+          }
+        });
+      }
+    </script>
+  </body>
+</html>

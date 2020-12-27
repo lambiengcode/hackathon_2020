@@ -1,0 +1,4 @@
+com/kherel/animated_theme_switcher/AnimatedThemeSwitcherPlugin.java
+ com.kherel.animated_theme_switcher.AnimatedThemeSwitcherPlugin
+com/kherel/animated_theme_switcher/BuildConfig.java
+ com.kherel.animated_theme_switcher.BuildConfig

@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/media/lambiengcode/src/flutter/project/cloud_classroom/build/file_picker/intermediates/res/merged/release/drawable-mdpi-v4/notification_bg_low_normal.9.png",
+        "source": "/home/lambiengcode/.gradle/caches/transforms-2/files-2.1/59db6d648a1e3fd5a1cd055418eb131f/core-1.0.2/res/drawable-mdpi-v4/notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "/media/lambiengcode/src/flutter/project/cloud_classroom/build/file_picker/intermediates/res/merged/release/drawable-mdpi-v4/notification_bg_normal_pressed.9.png",
+        "source": "/home/lambiengcode/.gradle/caches/transforms-2/files-2.1/59db6d648a1e3fd5a1cd055418eb131f/core-1.0.2/res/drawable-mdpi-v4/notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "/media/lambiengcode/src/flutter/project/cloud_classroom/build/file_picker/intermediates/res/merged/release/drawable-mdpi-v4/notification_bg_normal.9.png",
+        "source": "/home/lambiengcode/.gradle/caches/transforms-2/files-2.1/59db6d648a1e3fd5a1cd055418eb131f/core-1.0.2/res/drawable-mdpi-v4/notification_bg_normal.9.png"
+    },
+    {
+        "merged": "/media/lambiengcode/src/flutter/project/cloud_classroom/build/file_picker/intermediates/res/merged/release/drawable-mdpi-v4/notification_bg_low_pressed.9.png",
+        "source": "/home/lambiengcode/.gradle/caches/transforms-2/files-2.1/59db6d648a1e3fd5a1cd055418eb131f/core-1.0.2/res/drawable-mdpi-v4/notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "/media/lambiengcode/src/flutter/project/cloud_classroom/build/file_picker/intermediates/res/merged/release/drawable-mdpi-v4/notify_panel_notification_icon_bg.png",
+        "source": "/home/lambiengcode/.gradle/caches/transforms-2/files-2.1/59db6d648a1e3fd5a1cd055418eb131f/core-1.0.2/res/drawable-mdpi-v4/notify_panel_notification_icon_bg.png"
+    }
+]

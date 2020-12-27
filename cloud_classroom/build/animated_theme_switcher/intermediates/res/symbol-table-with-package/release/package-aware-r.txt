@@ -1,0 +1,1 @@
+com.kherel.animated_theme_switcher

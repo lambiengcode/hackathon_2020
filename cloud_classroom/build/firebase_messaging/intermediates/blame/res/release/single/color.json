@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/media/lambiengcode/src/flutter/project/cloud_classroom/build/firebase_messaging/intermediates/res/merged/release/color/common_google_signin_btn_text_dark.xml",
+        "source": "/home/lambiengcode/.gradle/caches/transforms-2/files-2.1/6c97d0ad82ee111691207d2dec0fdf4e/play-services-base-17.0.0/res/color/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/media/lambiengcode/src/flutter/project/cloud_classroom/build/firebase_messaging/intermediates/res/merged/release/color/common_google_signin_btn_text_light.xml",
+        "source": "/home/lambiengcode/.gradle/caches/transforms-2/files-2.1/6c97d0ad82ee111691207d2dec0fdf4e/play-services-base-17.0.0/res/color/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/media/lambiengcode/src/flutter/project/cloud_classroom/build/firebase_messaging/intermediates/res/merged/release/color/common_google_signin_btn_tint.xml",
+        "source": "/home/lambiengcode/.gradle/caches/transforms-2/files-2.1/6c97d0ad82ee111691207d2dec0fdf4e/play-services-base-17.0.0/res/color/common_google_signin_btn_tint.xml"
+    }
+]

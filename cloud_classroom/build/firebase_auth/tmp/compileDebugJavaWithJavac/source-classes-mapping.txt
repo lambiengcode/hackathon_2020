@@ -1,0 +1,12 @@
+io/flutter/plugins/firebaseauth/FirebaseAuthPlugin.java
+ io.flutter.plugins.firebaseauth.FirebaseAuthPlugin
+ io.flutter.plugins.firebaseauth.FirebaseAuthPlugin$1
+ io.flutter.plugins.firebaseauth.FirebaseAuthPlugin$2
+ io.flutter.plugins.firebaseauth.FirebaseAuthPlugin$3
+ io.flutter.plugins.firebaseauth.FirebaseAuthPlugin$GetSignInMethodsCompleteListener
+ io.flutter.plugins.firebaseauth.FirebaseAuthPlugin$SignInCompleteListener
+ io.flutter.plugins.firebaseauth.FirebaseAuthPlugin$TaskVoidCompleteListener
+io/flutter/plugins/firebaseauth/FlutterFirebaseAppRegistrar.java
+ io.flutter.plugins.firebaseauth.FlutterFirebaseAppRegistrar
+io/flutter/plugins/firebaseauth/BuildConfig.java
+ io.flutter.plugins.firebaseauth.BuildConfig

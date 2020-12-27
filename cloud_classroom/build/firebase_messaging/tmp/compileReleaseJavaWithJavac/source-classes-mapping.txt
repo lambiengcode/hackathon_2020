@@ -1,0 +1,19 @@
+io/flutter/plugins/firebasemessaging/FlutterFirebaseMessagingService.java
+ io.flutter.plugins.firebasemessaging.FlutterFirebaseMessagingService
+ io.flutter.plugins.firebasemessaging.FlutterFirebaseMessagingService$1
+io/flutter/plugins/firebasemessaging/BuildConfig.java
+ io.flutter.plugins.firebasemessaging.BuildConfig
+io/flutter/plugins/firebasemessaging/FlutterFirebaseAppRegistrar.java
+ io.flutter.plugins.firebasemessaging.FlutterFirebaseAppRegistrar
+io/flutter/plugins/firebasemessaging/FirebaseMessagingPlugin.java
+ io.flutter.plugins.firebasemessaging.FirebaseMessagingPlugin
+ io.flutter.plugins.firebasemessaging.FirebaseMessagingPlugin$1
+ io.flutter.plugins.firebasemessaging.FirebaseMessagingPlugin$2
+ io.flutter.plugins.firebasemessaging.FirebaseMessagingPlugin$3
+ io.flutter.plugins.firebasemessaging.FirebaseMessagingPlugin$4
+ io.flutter.plugins.firebasemessaging.FirebaseMessagingPlugin$5
+ io.flutter.plugins.firebasemessaging.FirebaseMessagingPlugin$5$1
+ io.flutter.plugins.firebasemessaging.FirebaseMessagingPlugin$5$2
+io/flutter/plugins/firebasemessaging/LatchResult.java
+ io.flutter.plugins.firebasemessaging.LatchResult
+ io.flutter.plugins.firebasemessaging.LatchResult$1

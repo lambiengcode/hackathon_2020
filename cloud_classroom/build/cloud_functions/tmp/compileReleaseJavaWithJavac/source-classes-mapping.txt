@@ -1,0 +1,7 @@
+io/flutter/plugins/firebase/cloudfunctions/BuildConfig.java
+ io.flutter.plugins.firebase.cloudfunctions.BuildConfig
+io/flutter/plugins/firebase/cloudfunctions/FlutterFirebaseAppRegistrar.java
+ io.flutter.plugins.firebase.cloudfunctions.FlutterFirebaseAppRegistrar
+io/flutter/plugins/firebase/cloudfunctions/CloudFunctionsPlugin.java
+ io.flutter.plugins.firebase.cloudfunctions.CloudFunctionsPlugin
+ io.flutter.plugins.firebase.cloudfunctions.CloudFunctionsPlugin$1

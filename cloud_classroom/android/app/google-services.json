@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "397229418203",
+    "project_id": "whoru-9b069",
+    "storage_bucket": "whoru-9b069.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:397229418203:android:71e6d4f46be30134d58efe",
+        "android_client_info": {
+          "package_name": "com.lambiengcode.whoru"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "397229418203-2io7aq0kg7m1rcec3jfidcvd2fei7h02.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCG6iYkTh9VIk1IrYgTdmjgxJxwV3nd0Zs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "397229418203-2io7aq0kg7m1rcec3jfidcvd2fei7h02.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:397229418203:android:c83986da8e50fc51d58efe",
+        "android_client_info": {
+          "package_name": "com.lambiengcode.whoru_mobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "397229418203-2io7aq0kg7m1rcec3jfidcvd2fei7h02.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCG6iYkTh9VIk1IrYgTdmjgxJxwV3nd0Zs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "397229418203-2io7aq0kg7m1rcec3jfidcvd2fei7h02.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

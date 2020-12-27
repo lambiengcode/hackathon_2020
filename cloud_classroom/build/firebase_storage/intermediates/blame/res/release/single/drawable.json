@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "/media/lambiengcode/src/flutter/project/cloud_classroom/build/firebase_storage/intermediates/res/merged/release/drawable/common_google_signin_btn_text_dark.xml",
+        "source": "/home/lambiengcode/.gradle/caches/transforms-2/files-2.1/2dd90c137f0ecf4d8d9568c297921017/jetified-play-services-base-16.0.1/res/drawable/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/media/lambiengcode/src/flutter/project/cloud_classroom/build/firebase_storage/intermediates/res/merged/release/drawable/common_google_signin_btn_text_light_normal.xml",
+        "source": "/home/lambiengcode/.gradle/caches/transforms-2/files-2.1/2dd90c137f0ecf4d8d9568c297921017/jetified-play-services-base-16.0.1/res/drawable/common_google_signin_btn_text_light_normal.xml"
+    },
+    {
+        "merged": "/media/lambiengcode/src/flutter/project/cloud_classroom/build/firebase_storage/intermediates/res/merged/release/drawable/common_google_signin_btn_text_dark_normal.xml",
+        "source": "/home/lambiengcode/.gradle/caches/transforms-2/files-2.1/2dd90c137f0ecf4d8d9568c297921017/jetified-play-services-base-16.0.1/res/drawable/common_google_signin_btn_text_dark_normal.xml"
+    },
+    {
+        "merged": "/media/lambiengcode/src/flutter/project/cloud_classroom/build/firebase_storage/intermediates/res/merged/release/drawable/common_google_signin_btn_text_light_focused.xml",
+        "source": "/home/lambiengcode/.gradle/caches/transforms-2/files-2.1/2dd90c137f0ecf4d8d9568c297921017/jetified-play-services-base-16.0.1/res/drawable/common_google_signin_btn_text_light_focused.xml"
+    },
+    {
+        "merged": "/media/lambiengcode/src/flutter/project/cloud_classroom/build/firebase_storage/intermediates/res/merged/release/drawable/common_google_signin_btn_icon_dark_normal.xml",
+        "source": "/home/lambiengcode/.gradle/caches/transforms-2/files-2.1/2dd90c137f0ecf4d8d9568c297921017/jetified-play-services-base-16.0.1/res/drawable/common_google_signin_btn_icon_dark_normal.xml"
+    },
+    {
+        "merged": "/media/lambiengcode/src/flutter/project/cloud_classroom/build/firebase_storage/intermediates/res/merged/release/drawable/notification_bg_low.xml",
+        "source": "/home/lambiengcode/.gradle/caches/transforms-2/files-2.1/a4999ae474860d57429c3bc9c4a045ec/core-1.0.0/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/media/lambiengcode/src/flutter/project/cloud_classroom/build/firebase_storage/intermediates/res/merged/release/drawable/common_google_signin_btn_icon_light_normal.xml",
+        "source": "/home/lambiengcode/.gradle/caches/transforms-2/files-2.1/2dd90c137f0ecf4d8d9568c297921017/jetified-play-services-base-16.0.1/res/drawable/common_google_signin_btn_icon_light_normal.xml"
+    },
+    {
+        "merged": "/media/lambiengcode/src/flutter/project/cloud_classroom/build/firebase_storage/intermediates/res/merged/release/drawable/common_google_signin_btn_icon_dark_focused.xml",
+        "source": "/home/lambiengcode/.gradle/caches/transforms-2/files-2.1/2dd90c137f0ecf4d8d9568c297921017/jetified-play-services-base-16.0.1/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
+    },
+    {
+        "merged": "/media/lambiengcode/src/flutter/project/cloud_classroom/build/firebase_storage/intermediates/res/merged/release/drawable/common_google_signin_btn_icon_light.xml",
+        "source": "/home/lambiengcode/.gradle/caches/transforms-2/files-2.1/2dd90c137f0ecf4d8d9568c297921017/jetified-play-services-base-16.0.1/res/drawable/common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/media/lambiengcode/src/flutter/project/cloud_classroom/build/firebase_storage/intermediates/res/merged/release/drawable/notification_tile_bg.xml",
+        "source": "/home/lambiengcode/.gradle/caches/transforms-2/files-2.1/a4999ae474860d57429c3bc9c4a045ec/core-1.0.0/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/media/lambiengcode/src/flutter/project/cloud_classroom/build/firebase_storage/intermediates/res/merged/release/drawable/common_google_signin_btn_icon_disabled.xml",
+        "source": "/home/lambiengcode/.gradle/caches/transforms-2/files-2.1/2dd90c137f0ecf4d8d9568c297921017/jetified-play-services-base-16.0.1/res/drawable/common_google_signin_btn_icon_disabled.xml"
+    },
+    {
+        "merged": "/media/lambiengcode/src/flutter/project/cloud_classroom/build/firebase_storage/intermediates/res/merged/release/drawable/common_google_signin_btn_text_light.xml",
+        "source": "/home/lambiengcode/.gradle/caches/transforms-2/files-2.1/2dd90c137f0ecf4d8d9568c297921017/jetified-play-services-base-16.0.1/res/drawable/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/media/lambiengcode/src/flutter/project/cloud_classroom/build/firebase_storage/intermediates/res/merged/release/drawable/notification_bg.xml",
+        "source": "/home/lambiengcode/.gradle/caches/transforms-2/files-2.1/a4999ae474860d57429c3bc9c4a045ec/core-1.0.0/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/media/lambiengcode/src/flutter/project/cloud_classroom/build/firebase_storage/intermediates/res/merged/release/drawable/notification_icon_background.xml",
+        "source": "/home/lambiengcode/.gradle/caches/transforms-2/files-2.1/a4999ae474860d57429c3bc9c4a045ec/core-1.0.0/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/media/lambiengcode/src/flutter/project/cloud_classroom/build/firebase_storage/intermediates/res/merged/release/drawable/common_google_signin_btn_text_disabled.xml",
+        "source": "/home/lambiengcode/.gradle/caches/transforms-2/files-2.1/2dd90c137f0ecf4d8d9568c297921017/jetified-play-services-base-16.0.1/res/drawable/common_google_signin_btn_text_disabled.xml"
+    },
+    {
+        "merged": "/media/lambiengcode/src/flutter/project/cloud_classroom/build/firebase_storage/intermediates/res/merged/release/drawable/common_google_signin_btn_icon_light_focused.xml",
+        "source": "/home/lambiengcode/.gradle/caches/transforms-2/files-2.1/2dd90c137f0ecf4d8d9568c297921017/jetified-play-services-base-16.0.1/res/drawable/common_google_signin_btn_icon_light_focused.xml"
+    },
+    {
+        "merged": "/media/lambiengcode/src/flutter/project/cloud_classroom/build/firebase_storage/intermediates/res/merged/release/drawable/common_google_signin_btn_text_dark_focused.xml",
+        "source": "/home/lambiengcode/.gradle/caches/transforms-2/files-2.1/2dd90c137f0ecf4d8d9568c297921017/jetified-play-services-base-16.0.1/res/drawable/common_google_signin_btn_text_dark_focused.xml"
+    },
+    {
+        "merged": "/media/lambiengcode/src/flutter/project/cloud_classroom/build/firebase_storage/intermediates/res/merged/release/drawable/common_google_signin_btn_icon_dark.xml",
+        "source": "/home/lambiengcode/.gradle/caches/transforms-2/files-2.1/2dd90c137f0ecf4d8d9568c297921017/jetified-play-services-base-16.0.1/res/drawable/common_google_signin_btn_icon_dark.xml"
+    }
+]

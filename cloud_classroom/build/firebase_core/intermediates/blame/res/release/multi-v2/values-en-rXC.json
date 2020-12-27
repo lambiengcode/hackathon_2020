@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "/media/lambiengcode/src/flutter/project/cloud_classroom/build/firebase_core/intermediates/incremental/mergeReleaseResources/merged.dir/values-en-rXC/values-en-rXC.xml",
+            "map": [
+                {
+                    "source": "/home/lambiengcode/.gradle/caches/transforms-2/files-2.1/a4999ae474860d57429c3bc9c4a045ec/core-1.0.0/res/values-en-rXC/values-en-rXC.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "202",
+                        "endOffsets": "253"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/media/lambiengcode/src/flutter/project/cloud_classroom/build/firebase_core/intermediates/res/merged/release/values-en-rXC/values-en-rXC.xml",
+            "map": [
+                {
+                    "source": "/home/lambiengcode/.gradle/caches/transforms-2/files-2.1/a4999ae474860d57429c3bc9c4a045ec/core-1.0.0/res/values-en-rXC/values-en-rXC.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "202",
+                        "endOffsets": "253"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/media/lambiengcode/src/flutter/project/cloud_classroom/build/image_picker/intermediates/res/merged/release/layout-v21/notification_action_tombstone.xml",
+        "source": "/home/lambiengcode/.gradle/caches/transforms-2/files-2.1/59db6d648a1e3fd5a1cd055418eb131f/core-1.0.2/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/media/lambiengcode/src/flutter/project/cloud_classroom/build/image_picker/intermediates/res/merged/release/layout-v21/notification_template_icon_group.xml",
+        "source": "/home/lambiengcode/.gradle/caches/transforms-2/files-2.1/59db6d648a1e3fd5a1cd055418eb131f/core-1.0.2/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/media/lambiengcode/src/flutter/project/cloud_classroom/build/image_picker/intermediates/res/merged/release/layout-v21/notification_action.xml",
+        "source": "/home/lambiengcode/.gradle/caches/transforms-2/files-2.1/59db6d648a1e3fd5a1cd055418eb131f/core-1.0.2/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/media/lambiengcode/src/flutter/project/cloud_classroom/build/image_picker/intermediates/res/merged/release/layout-v21/notification_template_custom_big.xml",
+        "source": "/home/lambiengcode/.gradle/caches/transforms-2/files-2.1/59db6d648a1e3fd5a1cd055418eb131f/core-1.0.2/res/layout-v21/notification_template_custom_big.xml"
+    }
+]

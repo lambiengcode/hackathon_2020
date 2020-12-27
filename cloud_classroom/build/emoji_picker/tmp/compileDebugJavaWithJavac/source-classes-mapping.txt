@@ -1,0 +1,4 @@
+com/jeffg/emoji_picker/EmojiPickerPlugin.java
+ com.jeffg.emoji_picker.EmojiPickerPlugin
+com/jeffg/emoji_picker/BuildConfig.java
+ com.jeffg.emoji_picker.BuildConfig

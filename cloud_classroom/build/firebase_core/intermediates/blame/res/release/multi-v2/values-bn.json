@@ -1,0 +1,82 @@
+{
+    "logs": [
+        {
+            "outputFile": "/media/lambiengcode/src/flutter/project/cloud_classroom/build/firebase_core/intermediates/incremental/mergeReleaseResources/merged.dir/values-bn/values-bn.xml",
+            "map": [
+                {
+                    "source": "/home/lambiengcode/.gradle/caches/transforms-2/files-2.1/a4999ae474860d57429c3bc9c4a045ec/core-1.0.0/res/values-bn/values-bn.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "316",
+                        "endColumns": "100",
+                        "endOffsets": "412"
+                    }
+                },
+                {
+                    "source": "/home/lambiengcode/.gradle/caches/transforms-2/files-2.1/cc23e157f46a66b2528cfdfc85b2aa6a/jetified-play-services-basement-16.0.1/res/values-bn/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "210",
+                        "endOffsets": "457"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "210",
+                        "endOffsets": "311"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/media/lambiengcode/src/flutter/project/cloud_classroom/build/firebase_core/intermediates/res/merged/release/values-bn/values-bn.xml",
+            "map": [
+                {
+                    "source": "/home/lambiengcode/.gradle/caches/transforms-2/files-2.1/a4999ae474860d57429c3bc9c4a045ec/core-1.0.0/res/values-bn/values-bn.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "316",
+                        "endColumns": "100",
+                        "endOffsets": "412"
+                    }
+                },
+                {
+                    "source": "/home/lambiengcode/.gradle/caches/transforms-2/files-2.1/cc23e157f46a66b2528cfdfc85b2aa6a/jetified-play-services-basement-16.0.1/res/values-bn/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "210",
+                        "endOffsets": "457"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "210",
+                        "endOffsets": "311"
+                    }
+                }
+            ]
+        }
+    ]
+}

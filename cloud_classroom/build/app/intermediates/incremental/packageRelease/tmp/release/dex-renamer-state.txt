@@ -1,0 +1,7 @@
+#Sun Dec 27 06:43:44 ICT 2020
+base.1=/media/lambiengcode/src/flutter/project/cloud_classroom/build/app/intermediates/dex/release/mergeDexRelease/out/classes2.dex
+path.1=classes2.dex
+base.0=/media/lambiengcode/src/flutter/project/cloud_classroom/build/app/intermediates/dex/release/mergeDexRelease/out/classes.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex

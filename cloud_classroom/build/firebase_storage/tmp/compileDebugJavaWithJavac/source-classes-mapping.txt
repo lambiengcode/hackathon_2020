@@ -1,0 +1,22 @@
+io/flutter/plugins/firebase/storage/FlutterFirebaseAppRegistrar.java
+ io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar
+io/flutter/plugins/firebase/storage/BuildConfig.java
+ io.flutter.plugins.firebase.storage.BuildConfig
+io/flutter/plugins/firebase/storage/FirebaseStoragePlugin.java
+ io.flutter.plugins.firebase.storage.FirebaseStoragePlugin
+ io.flutter.plugins.firebase.storage.FirebaseStoragePlugin$1
+ io.flutter.plugins.firebase.storage.FirebaseStoragePlugin$10
+ io.flutter.plugins.firebase.storage.FirebaseStoragePlugin$11
+ io.flutter.plugins.firebase.storage.FirebaseStoragePlugin$12
+ io.flutter.plugins.firebase.storage.FirebaseStoragePlugin$13
+ io.flutter.plugins.firebase.storage.FirebaseStoragePlugin$14
+ io.flutter.plugins.firebase.storage.FirebaseStoragePlugin$15
+ io.flutter.plugins.firebase.storage.FirebaseStoragePlugin$2
+ io.flutter.plugins.firebase.storage.FirebaseStoragePlugin$3
+ io.flutter.plugins.firebase.storage.FirebaseStoragePlugin$4
+ io.flutter.plugins.firebase.storage.FirebaseStoragePlugin$5
+ io.flutter.plugins.firebase.storage.FirebaseStoragePlugin$6
+ io.flutter.plugins.firebase.storage.FirebaseStoragePlugin$7
+ io.flutter.plugins.firebase.storage.FirebaseStoragePlugin$8
+ io.flutter.plugins.firebase.storage.FirebaseStoragePlugin$9
+ io.flutter.plugins.firebase.storage.FirebaseStoragePlugin$StorageTaskEventType
