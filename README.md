@@ -1,6 +1,10 @@
-## Hackathon 2020 :tada: :tada:
+## Hackathon 2020 :coffee: :coffee:
 
-Project include: Mobile Platform and Nodejs Server
+### Achievement :tada: :tada:
+- **Idea Award**
+
+### Description
+- :rocket: Project include: Mobile Platform and Nodejs Server
 
 ### Project Mobile :snail: :snail:
 - :rocket: run ***'flutter pub get'*** on terminal in project
@@ -12,4 +16,4 @@ Project include: Mobile Platform and Nodejs Server
 - :rocket: edit your firebase json in **index.html**
 - :rocket: run ***'npm start'*** for run the app
 
-:computer: :school: Thanks for Hakathon 2020 HCMUTE, it's really fun :heart:
+:computer: Thanks for Hakathon 2020 HCMUTE, it's really fun :heart:
