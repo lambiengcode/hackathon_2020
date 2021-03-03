@@ -17,3 +17,5 @@
 - :rocket: run ***'npm start'*** for run the app
 
 :computer: Thanks for Hakathon 2020 HCMUTE, it's really fun :heart:
+
+![Alt text](https://raw.githubusercontent.com/lambiengcode/hackathon2020/master/nodejs/File/BTTuan8/%2018110239-Đào%20Hồng%20Vinh-BTTuan8.jpg?raw=true "Optional Title")
